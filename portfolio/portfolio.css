@@ -20,6 +20,9 @@ ul.nav_bar{
     transform: translate(-20%,+20%);
     display: flex;
     list-style: none;
+    background-color: aliceblue;
+    padding: 20px;
+    
 }
 
 ul.nav_bar li{
@@ -43,6 +46,7 @@ ul.nav_bar li:hover a{
     width: 60px;
     height: 60px;
     border-radius: 100px;
+    padding: 20px;
 }
 
 .ic{
@@ -54,7 +58,9 @@ ul.nav_bar li:hover a{
     transform: translate(0,0);
 }
 
-h1{
+h1.Home{
+    position: absolute;
+    top: 60px;
     margin-top: 50px;
     margin-left: 51px;
     font-size: 60px;
@@ -62,47 +68,82 @@ h1{
     font-weight: lighter;
 }
 
-.slider-frame{
-    overflow: hidden;
-    height: 500px;
-    width: 100%;
-    margin-left: 3px;
-    margin-top: 2px;
+img.cert{
+    height: 340px;
+    width: 380px;   
 }
 
-/*----------slider-animation----------*/
-
-@-webkit-keyframes slide_animation{
-    0% {left:0px;}
-    10% {left:0px;}
-    20% {left: 800px;}
-    30% {left: 800px;}
-    40% {left: 1200px;}
-    50% {left: 1200px;}
-    60% {left: 800px;}
-    70% {left: 800px;}
-    80% {left: 0px;}
-    90% {left: 0px;}
-    100% {left: 0px;}
+.pics{
+    position: absolute;
+    top: 50%;
+    height: 50%;
+    width: 30%;
 }
 
-.slider-images{
-    width: 100%;
-    min-height: 500px;
-    margin: 0 0 0 -240px;
-    position: relative;
-    -webkit-animation-name: slide_animation;
-    -webkit-animation-duration: 30s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
-    -webkit-animation-play-state: running;
+.pic1{
+   
+    
 }
 
-.img-container{
-    height: 500px;
-    width: 100%;
-    position: relative;
-    float: left;
+.pic2{
+    
+   
+}
+.pic3{
+    
+  
 }
 
 
+
+h2.About{
+    position: absolute;
+    top:50%;
+    margin-top: 50px;
+    margin-left: 51px;
+    font-size: 60px;
+    font-weight: lighter;
+
+}
+
+table{
+    position: absolute;
+    top:70%
+
+}
+
+.row{
+    position: absolute;
+    top:80%
+}
+
+.icon1{
+    height: 200px;
+    width: 400px;
+}
+
+.column0{
+    position: absolute;
+    top: 90%;
+    left: 100px;
+}
+
+.column1{
+    position: absolute;
+    top: 90%;
+    left: 400px;
+}
+.column2{
+    position: absolute;
+    top: 90%;
+    left: 800px;
+}
+.column3{
+    position: absolute;
+    top: 90%;
+    left: 1200px;
+}
+
+.contact{
+    
+}
